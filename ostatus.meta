@@ -1,0 +1,8 @@
+((egg "ostatus.egg")
+ (synopsis "ostatus")
+ (license "GPL")
+ (category web)
+ (author "jboy")
+ (needs http-client openssl uri-common ssax sxpath irregex medea)
+ (files "ostatus.meta" "ostatus.scm" "ostatus.setup"))
+

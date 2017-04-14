@@ -1,0 +1,5 @@
+(compile -s -O3 -d1 -J ostatus.scm)
+(compile -s -O3 -d1    ostatus.import.scm)
+(install-extension 'ostatus
+                   '("ostatus.so" "ostatus.import.so")
+                   '((version "0.0.1")))
