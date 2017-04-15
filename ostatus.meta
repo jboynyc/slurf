@@ -3,6 +3,6 @@
  (license "GPL")
  (category web)
  (author "jboy")
- (needs http-client openssl uri-common ssax sxpath irregex medea)
+ (needs http-client openssl uri-common ssax sxpath irregex medea atom html-parser)
  (files "ostatus.meta" "ostatus.scm" "ostatus.setup"))
 
